@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر البورجي للأحذية الراقية</title>
+    <style>
+        :root {
+            --primary-orange: #e67e22; 
+            --dark-gray: #34495e; 
+            --light-bg: #f8f9fa;
+            --white: #ffffff;
+        }
+        body { font-family: 'Segoe UI', Tahoma, sans-serif; margin: 0; background-color: var(--light-bg); color: var(--dark-gray); }
+        
+        /* تصميم الهيدر مع الشعار */
+        header { 
+            background-color: var(--dark-gray); 
+            color: white; 
+            padding: 30px 15px; 
+            text-align: center; 
+            border-bottom: 5px solid var(--primary-orange); 
+        }
+        .logo { 
+            max-height: 120px; 
+            width: auto; 
+            margin-bottom: 15px;
+            filter: drop-shadow(0px 4px 6px rgba(0,0,0,0.3));
+        }
+        header h1 { margin: 10px 0; font-size: 1.8rem; }
+        header p { margin: 0; opacity: 0.9; font-size: 1.1rem; }
+
+        /* تصميم الصورة الجماعية البارزة */
+        .hero-image {
+            width: 100%;
+            height: 400px;
+            object-fit: contain; /* لضمان عدم تمدد الصورة */
+            background-color: var(--white);
+            display: block;
+        }
+
+        .container { max-width: 1200px; margin: 20px auto; padding: 15px; }
+        .grid-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; }
+        
+        .product-card { background: var(--white); border-radius: 15px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1); text-align: center; transition: 0.3s; border: 1px solid #ddd; }
+        .product-card:hover { transform: translateY(-10px); border-color: var(--primary-orange); }
+        .product-card img { width: 100%; height: 280px; object-fit: contain; background: white; padding: 10px; }
+        
+        .product-info { padding: 15px; }
+        .price { color: var(--primary-orange); font-size: 1.6rem; font-weight: bold; margin: 10px 0; }
+        
+        .whatsapp-btn { 
+            background-color: #25d366; color: white; border: none; padding: 12px 20px; 
+            border-radius: 25px; cursor: pointer; text-decoration: none; display: block; 
+            font-weight: bold; transition: 0.3s;
+        }
+        .whatsapp-btn:hover { background-color: #128c7e; transform: scale(1.05); }
+        
+        footer { text-align: center; padding: 30px; background: var(--dark-gray); color: white; margin-top: 50px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="https://raw.githubusercontent.com/motaz-pood/image/main/1773447733562.png" alt="شعار متجر البورجي" class="logo">
+    <h1>متجر البورجي للأحذية الراقية</h1>
+    <p>أفخم الصنادل في الحديدة | جميع الأنواع بـ 1500 ريال</p>
+</header>
+
+<img src="https://raw.githubusercontent.com/motaz-pood/image/main/1772636440510.png" alt="واجهة متجر البورجي" class="hero-image">
+
+<div class="container">
+    <div class="grid-container">
+        
+        <div class="product-card">
+            <img src="https://raw.githubusercontent.com/motaz-pood/image/main/1772590225469.png" alt="صندل 1">
+            <div class="product-info">
+                <h3>صندل شرقي فاخر</h3>
+                <div class="price">1500 ريال</div>
+                <a href="https://wa.me/967734229097?text=مرحباً معتز، أريد طلب الصندل رقم 1" class="whatsapp-btn">اطلب عبر واتساب</a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="https://raw.githubusercontent.com/motaz-pood/image/main/1772590382639.png" alt="صندل 2">
+            <div class="product-info">
+                <h3>صندل كاجوال أنيق</h3>
+                <div class="price">1500 ريال</div>
+                <a href="https://wa.me/967734229097?text=مرحباً معتز، أريد طلب الصندل رقم 2" class="whatsapp-btn">اطلب عبر واتساب</a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="https://raw.githubusercontent.com/motaz-pood/image/main/1772637130186.png" alt="صندل 3">
+            <div class="product-info">
+                <h3>صندل طبي مريح</h3>
+                <div class="price">1500 ريال</div>
+                <a href="https://wa.me/967734229097?text=مرحباً معتز، أريد طلب الصندل رقم 3" class="whatsapp-btn">اطلب عبر واتساب</a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="https://raw.githubusercontent.com/motaz-pood/image/main/1772641477765.png" alt="صندل 4">
+            <div class="product-info">
+                <h3>صندل عصري مودرن</h3>
+                <div class="price">1500 ريال</div>
+                <a href="https://wa.me/967734229097?text=مرحباً معتز، أريد طلب الصندل رقم 4" class="whatsapp-btn">اطلب عبر واتساب</a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="https://raw.githubusercontent.com/motaz-pood/image/main/1772641723619.png" alt="صندل 5">
+            <div class="product-info">
+                <h3>صندل مناسبات راقٍ</h3>
+                <div class="price">1500 ريال</div>
+                <a href="https://wa.me/967734229097?text=مرحباً معتز، أريد طلب الصندل رقم 5" class="whatsapp-btn">اطلب عبر واتساب</a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="https://raw.githubusercontent.com/motaz-pood/image/main/file_0000000062c0724684d40e3701b3a88d.png" alt="صندل 6">
+            <div class="product-info">
+                <h3>صندل خفيف ومرن</h3>
+                <div class="price">1500 ريال</div>
+                <a href="https://wa.me/967734229097?text=مرحباً معتز، أريد طلب الصندل رقم 6" class="whatsapp-btn">اطلب عبر واتساب</a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="https://raw.githubusercontent.com/motaz-pood/image/main/file_000000007604720a91467b4b3c7dbd22.png" alt="صندل 7">
+            <div class="product-info">
+                <h3>صندل رياضي فخم</h3>
+                <div class="price">1500 ريال</div>
+                <a href="https://wa.me/967734229097?text=مرحباً معتز، أريد طلب الصندل رقم 7" class="whatsapp-btn">اطلب عبر واتساب</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    <p>جميع الحقوق محفوظة لـ متجر البورجي &copy; 2026</p>
+    <p>الحديدة - اليمن | للتواصل واتساب: 734229097</p>
+</footer>
+
+</body>
+</html>
+
